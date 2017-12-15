@@ -1,0 +1,29 @@
+<plugin
+		id="com.vp.plugin.sample.classmemberbackground"
+		name="Class Member Background Color"
+		description="Class Member Background Color"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.classmemberbackground.ClassMemberBackgroundPlugin">
+	
+	<actionSets>
+  		<actionSet id="com.vp.plugin.sample.classmemberbackground.actionset1">
+			<toolbar
+					id="com.vp.plugin.sample.classmemberbackground.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			
+			<action
+					id="com.vp.plugin.sample.classmemberbackground.actionset1.ClassMemberBackgroundAction"
+					actionType="generalAction"
+      		name="Class Member Background Color"
+		      description="Class Member Background Color"
+					style="normal"
+          icon="icon/icon.png"
+          tooltip="Class Member Background Color"
+					toolbarPath="com.vp.plugin.sample.classmemberbackground.actionset1.toolbar1/#">
+				<actionController class="com.vp.plugin.sample.classmemberbackground.actions.ClassMemberBackgroundActionControl"/>
+			</action>
+		</actionSet>
+
+	</actionSets>	
+</plugin>
